@@ -39,7 +39,7 @@ int main(){
     struct stack_config *ptr = &structure;
     int n = 5;
     
-    // Fucntion calls
+    // Function calls
     initalize(ptr);
     push(n, ptr);
     
