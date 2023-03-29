@@ -26,7 +26,7 @@ void push(int value, struct stack_config *stack_ptr){
 void pop(struct stack_config *stack_ptr){
     int top = stack_ptr->size;
     stack_ptr->stack[top] = 0;
-    stack_ptr->size = stack_ptr->size--;
+    stack_ptr->size = top--;
 }
 
 int peek(struct stack_config *stack_ptr){
