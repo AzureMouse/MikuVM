@@ -2,7 +2,7 @@
 
 // What is a stack data structure
 // A stack can insert data from the botton of the stack to the top of the stack, newest is top
-// A FIFO (First in first out) data structure
+// A FILO (First in last out) data structure
 // Can be implemented by an array or linkedlist
 
 // Components of the stack
